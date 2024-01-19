@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark-mode">
 
 <head>
   <meta charset="utf-8">
@@ -118,15 +118,7 @@
   </style>
 
   <!-- Theme mode -->
-  <script>
-    let mode = window.localStorage.getItem('mode'),
-      root = document.getElementsByTagName('html')[0];
-    if (mode !== null && mode === 'dark') {
-      root.classList.add('dark-mode');
-    } else {
-      root.classList.remove('dark-mode');
-    }
-  </script>
+
 
   <!-- Page loading scripts -->
   <script>
@@ -183,7 +175,7 @@
     <!-- Hero slider + BG parallax -->
     <section class="jarallax dark-mode bg-dark py-xxl-5" data-jarallax data-speed="0.4">
       <span class="position-absolute top-0 start-0 w-100 h-100 bg-gradient-dark-translucent"></span>
-      <div class="jarallax-img" style="background-image: url(assets/img/landing/software-company/hero-bg.jpg);"></div>
+      <div class="jarallax-img" style="background-image: url(assets/img/fondo.jpg);"></div>
       <div class="position-relative text-center zindex-5 overflow-hidden pt-4 py-md-5">
 
         <!-- Slider -->
@@ -259,7 +251,7 @@
 
           <!-- Item -->
           <div class="col py-4 my-2 my-sm-3">
-            <a href="services-single-v1.html"
+            <a
               class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 me-xl-2">
               <div class="card-body pt-3">
                 <div
@@ -279,7 +271,7 @@
 
           <!-- Item -->
           <div class="col py-4 my-2 my-sm-3">
-            <a href="services-single-v1.html"
+            <a
               class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
               <div class="card-body pt-3">
                 <div
@@ -287,12 +279,14 @@
                   <img src="assets/img/services/icons/mobile-app.svg" class="d-block m-1" width="40" alt="Icon">
                 </div>
                 <h2 class="h4 d-inline-flex align-items-center">
-                  Carta QR
+                  Tiendas online
                 </h2>
-                <p class="fs-sm text-body mb-0">Una Carta QR es como un acceso rápido a tu menú desde el teléfono. Los
-                  clientes lo escanean y ven toda la oferta del restaurante en sus dispositivos, evitando la necesidad
-                  de menús impresos. Es una forma moderna y conveniente de ofrecer información actualizada y mejorar la
-                  experiencia del cliente.</p>
+                <p class="fs-sm text-body mb-0">Una tienda online es un comercio electrónico que opera a través de
+                  internet, permitiendo a los usuarios realizar compras y transacciones desde la comodidad de sus
+                  dispositivos electrónicos. Estas plataformas ofrecen una amplia variedad de productos o servicios,
+                  facilitando la búsqueda, selección y compra de productos sin la necesidad de visitar físicamente una
+                  tienda tradicional.
+                </p>
               </div>
             </a>
           </div>
@@ -311,13 +305,13 @@
           <div class="card d-table border-0 rounded-circle shadow-sm p-3 mx-auto mb-4">
             <img src="assets/img/landing/software-company/features/01.svg" width="32" alt="Icono">
           </div>
-          <h3 class="h5 mb-2 mb-lg-0">Creamos un prototipo funcional en 72 horas</h3>
+          <h3 class="h5 mb-2 mb-lg-0">Desarrolla un Producto Mínimo Viable segun tus necesidades</h3>
         </div>
         <div class="col text-center border-end">
           <div class="card d-table border-0 rounded-circle shadow-sm p-3 mx-auto mb-4">
             <img src="assets/img/landing/software-company/features/02.svg" width="32" alt="Icono">
           </div>
-          <h3 class="h5 mb-2 mb-lg-0">Desarrolla un Producto Mínimo Viable segun tus necesidades</h3>
+          <h3 class="h5 mb-2 mb-lg-0">Desarrollo de alta calidad</h3>
         </div>
         <div class="col text-center border-end">
           <div class="card d-table border-0 rounded-circle shadow-sm p-3 mx-auto mb-4">
